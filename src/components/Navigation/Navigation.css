@@ -1,0 +1,38 @@
+.navigation-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-item {
+  display: flex;
+}
+
+.navigation-item .nav-link {
+  color: #444444;
+}
+.nav-link:hover {
+  border-bottom: 3px solid #e10f28;
+}
+
+.navigation-right {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+
+.social-icons {
+  margin-left: 200px;
+}
+.social-icons i {
+  color: #e10f28;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 1020px) {
+  .navigation-item {
+    display: none;
+  }
+}
